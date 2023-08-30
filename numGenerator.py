@@ -5,22 +5,22 @@ from time import sleep
 
 print("")
 print("Note! The difference between the lower and the upper limits must be atleast 10")
-sleep(.5)
+sleep(.2)
 print("")
 lower_limit = int(input("Enter your lower limit: "))
 print("")
-sleep(.5)
+sleep(.2)
 upper_limit = int(input("Enter your upper limit: "))
 print("")
 
 # Upper limit should be greater than lower limit by 10
 
 while (upper_limit - lower_limit < 10 ):
-    sleep(.5)
+    sleep(.2)
     print("Please, the difference between the lower and the upper limits must be atleast 10")
+    sleep(.2)
     print("")
-    sleep(.5)
-    upper_limit = int(input("Enter your upper limit: "))
+    upper_limit = int(input("Enter an appropriate upper limit: "))
     print("")
 
 # Generate random number
@@ -33,7 +33,7 @@ print ("  This might take a while... ", end="\r")
 animation = "|/-\\"
 idx = 0
 
-for letter in "spinning animation":
+for letter in "py animation":
     print(animation[idx % len(animation)], end="\r")
     idx += 1
     sleep(0.3)
