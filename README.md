@@ -37,7 +37,7 @@ This module imports the aforementioned two (app and numGenerator) modules and co
 
 ## Cool Widgets
 
-- The ***sleep()*** method from the ***time*** module is used to create a delay effect so it seems like some background work is being done
+- The ***sleep()*** method from the ***time*** module is used to create a delay effect so it seems like some background work is being done.
 
 - a ***for loop*** was built to create a cool loading animation on the console when the random the number is being generated.
 
